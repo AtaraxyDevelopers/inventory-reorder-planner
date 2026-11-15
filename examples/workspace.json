@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "project": "inventory-reorder-planner",
+  "settings": {
+    "currency": "USD",
+    "safetyDays": 5,
+    "coverageDays": 30
+  },
+  "records": [
+    {
+      "id": "sku-1",
+      "name": "Shipping boxes",
+      "sold": 300,
+      "observationDays": 30,
+      "stock": 80,
+      "onOrder": 20,
+      "leadDays": 7,
+      "unitCost": 2,
+      "pack": 25
+    },
+    {
+      "id": "sku-2",
+      "name": "Seasonal labels",
+      "sold": 0,
+      "observationDays": 30,
+      "stock": 200,
+      "onOrder": 0,
+      "leadDays": 5,
+      "unitCost": 1,
+      "pack": 10
+    }
+  ]
+}
